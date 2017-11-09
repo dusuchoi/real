@@ -1,7 +1,6 @@
 package com.your.dream.real;
 
 import org.junit.Test;
-
 /**
  * Unit test for simple App.
  */
