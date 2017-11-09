@@ -12,7 +12,7 @@ public class App {
     public static void main( String[] args ) {
 		Logger logger = Logger.getLogger("log");
     	for(String arg : args) {
-    		logger.log(Level.FINE,"parameter: " + arg);
+    		logger.log(Level.FINE,"parameter: {}" + arg);
     	}
     }
 }
