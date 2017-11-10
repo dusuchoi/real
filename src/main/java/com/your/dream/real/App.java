@@ -8,11 +8,10 @@ import java.util.logging.Logger;
  *
  */
 public class App {
-
+	private static Logger logger = Logger.getLogger("log");
     public static void main( String[] args ) {
-		Logger logger = Logger.getLogger("log");
     	for(String arg : args) {
-    		logger.info("parameter: "+ arg);
+    		logger.log(Level.INFO,"parameter: "+ arg);
     	}
     }
 }
