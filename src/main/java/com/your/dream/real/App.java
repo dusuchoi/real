@@ -1,7 +1,5 @@
 package com.your.dream.real;
 
-import sun.rmi.runtime.Log;
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
