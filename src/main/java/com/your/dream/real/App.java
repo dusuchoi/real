@@ -11,8 +11,7 @@ public class App {
 	private static Logger logger = Logger.getLogger(App.class.getName());
     public static void main( String[] args ) {
     	for(String arg : args) {
-    		logger.setLevel(Level.INFO);
-    		logger.info("parameter: " + arg);
+    		logger.log(Level.FINE,"parameter: {}" + arg);
     	}
 
     }
